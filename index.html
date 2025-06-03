@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>SinceSmitten</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/buttershine-serif" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+<body>
+    <table border="0">
+        <tr>
+            <td class="logo" width="700"><a href="index.html"><img src="photos/logo.jpeg" width="120"></a></td>
+            <td width="400" align="center"><button class="menu"><a href="about-us.html">about us</a></button></td>
+            <td width="400" align="center">
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="catalogue.html">catalogue</a>
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="carddigital.html">digital card</a>
+                      <a href="carddigital.html">doorgift</a>
+                    </div>
+                  </div> 
+            </td>
+            <td width="400" align="center">
+              <div class="dropdown">
+                <button class="dropbtn"><a href="location.html">location</a>
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="Selangor.html">Selangor</a>
+                <a href="Sabah.html">Sabah</a>
+                <a href="Pahang.html">Pahang</a>
+              </div>
+            </div> 
+            <td width="400" align="center"><button class="menu"><a href="gallery.html">gallery</a></button></td>
+        </tr>
+    </table>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="photos/logo.mp4" type="video/mp4">
+    </video>
+
+     <table border="0" align="center">
+      <tr>
+        <td width="500">
+      <p class="fadeInUp-animation" align="center">
+          Since 
+          <br>
+          Smitten</p>
+        </td>
+        <td width="600">
+    <div class="quote">
+      <blockquote>
+      "When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible." 
+      <p align="right" style="margin-right: 60px;">-Harry, "When Harry Met Sally"</p>
+      </blockquote>
+    </div>
+    </td>
+  </table>
+
+  <div class="box3">
+    <div class="box-text2">
+        <p style="font-size:30px"><a href="gallery.html"><font color="white">our gallery</font></a></p>
+        <p>photographs of wedding</p>
+    </div>
+  </div>
+        <div class="box" style="margin-bottom: 50px;">
+          <div class="box-text2">
+              <p style="font-size:40px"><a href="catalogue.html"><font color="white">catalogue</font></a></p>
+          </div>
+        </div>
+          <div class="box2" style="margin-bottom: 50px;">
+          <div class="box-text2">
+              <p style="font-size:40px"><a href="location.html"><font color="white">location</font></a></p>
+          </div>
+        </div>
+
+        <p class="motto" align="center">"Celebrate life's special moments"</p>
+
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <div><img src="photos/logo2.png" width="50%"></div>
+
+    <p class="footer-links">
+      <a href="index.html" class="link-1">Home</a>
+      
+      <a href="catalogue.html">Catalogue</a>
+    
+      <a href="location.html">Location</a>
+    
+      <a href="about-us.html">About</a>
+    </p>
+
+    <p class="footer-company-name">Since Smitten ©️ 2024</p>
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <img src="photos/location.png" width="30px" style="padding-top: 40px;padding-right: 10px;">
+      <p style="padding-bottom: 20px;"><span>Lot 28195, Jalan Kampung Sungai Karang,</span> Kampung Pantai Balok, 26080 Balok, Pahang</p>
+    </div>
+
+    <div>
+      <img src="photos/contact.png" width="30px" style="padding-top: 40px;padding-right: 10px;">
+      <p style="padding-bottom: 20px;">+60 12 345 6888</p>
+    </div>
+
+    <div>
+      <img src="photos/mail.png" width="30px" style="padding-top: 40px;padding-right: 10px;">
+      <p style="padding-bottom: 20px;"><a href="mailto:sincesmitten@gmail.com">sincesmitten@gmail.com</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about">
+      <span>About the company</span>
+      The Smitten wedding hall service industry is part of the bigger wedding and events sector. Its main focus is on providing wedding venues and other services related to weddings. All of these places are used for wedding services, parties, and other events related to weddings. 
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="https://www.youtube.com/@aniszlhm"><img src="photos/youtube.png" width="40px"></a>
+      <a href="https://www.instagram.com/marissalel/"><img src="photos/instagram.png" width="40px"></a>
+      <a href="https://www.tiktok.com/@_.lloml"><img src="photos/tiktok.png" width="40px"></a>
+      <a href="https://www.facebook.com/login.php"><img src="photos/facebook.png" width="40px"></a>
+
+    </div>
+  </div>
+  
+</footer>
+      
+<script type="text/javascript">
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); 
+  }
+  </script>
+
+</body>
+</html>
